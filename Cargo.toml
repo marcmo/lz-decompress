@@ -9,7 +9,7 @@ readme = "README.md"
 license = "BSD-2-Clause"
 keywords = ["lz", "compression", "ffi", "decompress"]
 categories = ["compression", "external-ffi-bindings"]
-exclude = ["/lzlib-1.15.tar.gz", "/tests/data"]
+exclude = ["/tests/data"]
 
 [build-dependencies]
 cc = "1.0"
