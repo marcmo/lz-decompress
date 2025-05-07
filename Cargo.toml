@@ -1,6 +1,6 @@
 [package]
 name = "lz-decompress"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["oliver.mueller@gmail.com"]
 description = "Rust bindings to lzlib for decompressing .lz files"
@@ -10,6 +10,8 @@ license = "BSD-2-Clause"
 keywords = ["lz", "compression", "ffi", "decompress"]
 categories = ["compression", "external-ffi-bindings"]
 exclude = ["/tests/data"]
+documentation = "https://docs.rs/lz-decompress/latest/lz_decompress/"
+homepage = "https://github.com/marcmo/lz-decompress"
 
 [build-dependencies]
 cc = "1.0"

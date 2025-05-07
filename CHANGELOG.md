@@ -1,0 +1,24 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.2.0] - 2025-05-07
+
+### Added
+
+- Support for Windows.
+- Updated build instructions and documented MSVC toolchain requirements for Windows users.
+
+### Changed
+
+- Removed unnecessary `unistd.h` include from the C wrapper to improve compatibility with MSVC.
+
+## [0.1.0] - 2025-04-30
+
+### Added
+
+- Initial release with Rust bindings to `lzlib` for `.lz` file decompression.
+- Basic support for Unix-like platforms and `x86_64-pc-windows-msvc`.
